@@ -1,0 +1,184 @@
+  
+/*
+Theme Name: Yellow
+Author: EJ
+Version: 1.0
+*/
+
+body {
+    margin: 0;
+    font-family: Lato;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #ffd300;
+    color: #000000;
+  }
+
+  /* Secondary menu */
+.sec-menu-btn {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 0%;
+  top: 88%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-menu-btn h3 {
+  color: #ffffff;
+}
+
+.sec-menu ul {
+  position: relative;
+  top: 25%;
+}
+
+.sec-menu-close {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+}
+
+.sec-menu {
+  height: 100px;
+  width: 40%;
+  position: absolute;
+  right: -700px;
+  top: 88%;
+  background-color: #000000;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #000000;
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffd300;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 0.9;
+}
+
+/* Navbar styles */
+.active a {
+  font-weight: 900;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+#logo-tagline {
+  color: #ffffff;
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
+}
+
+#logo-link {
+  color: #ffd300;
+  text-decoration: none;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+}
+
+#logo-link:hover {
+  color: #ffffff;
+}
+
+/* Hero area styles */
+#hero-image {
+  height: 130vh;
+  width: 100%;
+}
+
+.FP-hero-header {
+  position: absolute;
+  color: #ffd300;
+  font-size: 8em;
+  font-weight: 900;
+  top: 40%;
+  /* left: 66%; */
+  left: 110%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.advert-div {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 50px;
+}
+
+.yellow-circle {
+  position: absolute;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 2px ridge #ffd300;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+}
+
+.header-div {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.header-div a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#in-div1 {
+  top: 20%;
+  left: -25%;
+}
+
+#in-div2 {
+  top: 45%;
+  left: -20%;
+}
+
+#in-div3 {
+  top: 70%;
+  left: -25%;
+}
+
+/* Woocommerce General */
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+.home .woocommerce-loop-product__title + p {
+  display: none;
+}
+
+/* Animated woocommerce ads */
+#animated-ads {
+  opacity: 0;
+}
